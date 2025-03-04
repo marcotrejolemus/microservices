@@ -59,14 +59,14 @@ H2 Database (for simplicity)
 Project Structure
 pgsql
 
-# user-microservice/
-# │── src/main/java/com/example/user
-# │   ├── UserMicroserviceApplication.java  (Main class)
-# │   ├── controller/UserController.java  (Handles API requests)
-# │   ├── model/User.java  (Defines the User entity)
-# │   ├── repository/UserRepository.java  (Database operations)
-# │   ├── service/UserService.java  (Business logic)
-# │── src/main/resources/application.properties  (Configurations)
+- user-microservice/
+- │── src/main/java/com/example/user
+- │   ├── UserMicroserviceApplication.java  (Main class)
+- │   ├── controller/UserController.java  (Handles API requests)
+- │   ├── model/User.java  (Defines the User entity)
+- │   ├── repository/UserRepository.java  (Database operations)
+- │   ├── service/UserService.java  (Business logic)
+- │── src/main/resources/application.properties  (Configurations)
 
 ## 1️ Main Application (Spring Boot Starter)
 UserMicroserviceApplication.java
