@@ -59,7 +59,7 @@ H2 Database (for simplicity)
 Project Structure
 pgsql
 
-- user-microservice/
+- msapi/
 - │── src/main/java/com/example/user
 - │   ├── UserMicroserviceApplication.java  (Main class)
 - │   ├── controller/UserController.java  (Handles API requests)
@@ -135,8 +135,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
 UserService.java
 
 java
-Copiar
-Editar
 package com.example.user.service;
 
 import com.example.user.model.User;
@@ -206,8 +204,7 @@ public class UserController {
 application.properties
 
 properties
-Copiar
-Editar
+
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=sa
